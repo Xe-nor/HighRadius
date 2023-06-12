@@ -1,0 +1,67 @@
+body {
+  padding: 1em;
+}
+
+.table1 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.th1,
+.td1 {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+
+.th1 {
+  background-color: #f2f2f2;
+}
+
+.tr1:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.tr1:nth-child(even) {
+  background-color: #ddd;
+}
+
+.th1 {
+  color: #ffffff;
+  background-color: lightgreen;
+}
+.subtitle p {
+  text-align: center;
+  color: #fc7500;
+  font-size: 1.3em;
+}
+.field {
+  border: 0.5em solid #fc7500;
+}
+.logo {
+  display: flex;
+  margin: 3em auto;
+  justify-content: center;
+}
+
+.table2 {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 2em;
+  font-family: "Comic Neue", cursive;
+}
+
+.th2,
+.td2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #90d164ff;
+}
+
+.th2 {
+  font-size: 1.6em;
+  color: #ffffff;
+  background-color: #4fc4f7;
+}
